@@ -1,0 +1,39 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ .flex{
+    display: flex;
+    flex-wrap: wrap;
+ }
+
+ .spaceBetween{
+    justify-content: space-between;
+ }
+
+ .container{
+    max-width: 1000px;
+    margin: auto;
+
+ }
+
+ .alignCenter{
+    align-items: center;
+ }
+
+ .text-align{
+    align-items: flex-end;
+ }
+
+ .couleur{
+background-color: aqua;
+ }
+
+ .marge{
+    margin-top: 10%;
+ }
+ 
