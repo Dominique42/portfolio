@@ -1,46 +1,100 @@
 @import url('https://fonts.googleapis.com/css2?family=Alice&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    }
+
+header{
+    display: flex ;
+    justify-content: space-between;
+    background-color: rgb(127, 127, 212);
+    padding:8px 30px;  
 }
 
-.flex {
+header ul li{
+    list-style: none;
+    margin-left: 16px;
+}
+
+a{
+    text-decoration: none;
+}
+   
+.flex{
     display: flex;
     flex-wrap: wrap;
 }
 
-.spaceBetween {
+.spaceBetween{
     justify-content: space-between;
 }
 
-.container {
-    max-width: 1000px;
-    margin: auto;
-
-}
-
-.alignCenter {
+.alignCenter{
     align-items: center;
 }
 
-.text-align {
+.text-align{
     align-items: flex-end;
 }
 
-.couleur {
-    background-color: rgba(140, 0, 255, 0.084);
+.couleur{
+background-color: rgb(126, 126, 179);
 }
 
-.marge {
+.marge{
     margin-top: 10%;
 }
 
-.width {
+.width{
     width: 40%;
 }
 
 .fond{
-    background-color: rgba(192, 192, 209, 0.523);
+    background-color: rgba(196, 196, 217, 0.08);
+}
+
+.marge{
+    margin-top: 10%;
+}
+
+.outils img{
+    width : 100px;
+    height: 100px;
+    object-fit: contain;
+}
+
+.carteProjet{
+    width: 300px;
+   
+    padding: 16px;
+    border: 1px solid #d2d2d2;
+    border-radius: 16px;
+    
+    
+}
+
+.carteProjet img{
+    width: 100%;
+    border-radius: 8px;
+}
+
+.carteProjet span{
+    background-color: rgb(235, 171, 248);
+    padding: 4px;
+    font-size: 14px;
+    margin-right: 16px;
+    margin-top: 8px;
+    display: inline-block;
+    border-radius: 4px;
+}
+
+.bouton{
+display: inline-block;
+background-color: blueviolet;
+color: white;
+padding: 8px 16px;
+margin-top: 16px;
+border-radius: 8px;
 }
