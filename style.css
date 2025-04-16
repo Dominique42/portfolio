@@ -9,8 +9,9 @@
 header{
     display: flex ;
     justify-content: space-between;
-    background-color: rgb(127, 127, 212);
-    padding:8px 30px;  
+    background-color: rgba(216, 154, 216, 0.986);
+    padding:8px 50px; 
+    color: black; 
 }
 
 header ul li{
@@ -20,6 +21,19 @@ header ul li{
 
 a{
     text-decoration: none;
+}
+
+h1{
+    font-family: none;
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+h3{
+    font-family: Arial, Helvetica, sans-serif;
 }
    
 .flex{
@@ -43,9 +57,19 @@ a{
 background-color: rgb(126, 126, 179);
 }
 
-.marge{
-    margin-top: 10%;
+.bgred {
+    background-color: red;
 }
+
+.widthpx{
+    width: 80px;
+}
+
+.bgblue {
+    background-color: blue;
+}
+
+
 
 .width{
     width: 40%;
@@ -98,3 +122,28 @@ padding: 8px 16px;
 margin-top: 16px;
 border-radius: 8px;
 }
+
+.ecran{
+    background-color: violet;
+}
+
+
+.padding{
+    padding: 40px
+}
+
+footer{
+    display: flex ;
+    justify-content: space-between;
+    background-color: rgba(216, 154, 216, 0.986);
+    padding:8px 50px; 
+    color: black; 
+    
+}
+footer ul li{
+    list-style: none;
+    margin-left: 16px;
+}
+
+
+    
