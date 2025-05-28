@@ -9,7 +9,7 @@
 header{
     display: flex ;
     justify-content: space-between;
-    background-color: rgba(216, 154, 216, 0.986);
+    background-color: rgba(6, 2, 20, 0.338);
     padding:8px 50px; 
     color: black; 
 }
@@ -105,7 +105,7 @@ background-color: rgb(126, 126, 179);
 }
 
 .carteProjet span{
-    background-color: rgb(235, 171, 248);
+    background-color: rgba(187, 171, 248, 0.249);
     padding: 4px;
     font-size: 14px;
     margin-right: 16px;
@@ -124,7 +124,7 @@ border-radius: 8px;
 }
 
 .ecran{
-    background-color: violet;
+    background-color: rgba(202, 199, 194, 0.146);
 }
 
 
