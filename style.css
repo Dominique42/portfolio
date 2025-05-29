@@ -11,7 +11,7 @@ header{
     justify-content: space-between;
     background-color: rgba(6, 2, 20, 0.338);
     padding:8px 50px; 
-    color: black; 
+    color: rgb(239, 232, 232); 
 }
 
 header ul li{
@@ -145,5 +145,12 @@ footer ul li{
     margin-left: 16px;
 }
 
+.body{
+    background-color: black;
+}
+
+.color{
+    color: white;
+}
 
     
